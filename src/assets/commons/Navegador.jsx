@@ -14,11 +14,11 @@ const Navegador = ()=>{
                 </Link>
 
                 <Link to={"/api"}>
-                    <h2>api</h2>
+                    <h2>productos de la tienda</h2>
                 </Link> 
 
-                <Link to={"/carrito"}>
-                    <h2>Carrito</h2>
+                <Link to={"/informaciongeneral"}>
+                    <h2>Ingresos y productos</h2>
                 </Link>
                
             </nav>

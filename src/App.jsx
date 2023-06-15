@@ -10,6 +10,7 @@ import Error from './Pages/Error'
 
 import { Routes, Route} from 'react-router-dom';
 import API from "./Pages/Carrito";
+import IngresosTotales from "./Pages/IngresosTotales";
 
 
 
@@ -23,6 +24,7 @@ export const App = ()=> {
         <Routes>
           <Route path = "/" element = {<Home/>}/>
           <Route path = "/Juegos" element = {<ProductList/>}/>
+          <Route path = "/informaciongeneral" element = {<IngresosTotales/>}/>
           <Route path = "*" element = {<Error/>}/>
           <Route path = "/api" element = {<API/>}/>
           
