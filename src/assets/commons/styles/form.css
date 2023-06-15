@@ -1,4 +1,6 @@
 .contact-form {
+  font-family: 'Bebas Neue', sans-serif;
+font-family: 'Urbanist', sans-serif;
     transition: all 0.3s;
     display: flex;
     justify-content: center;
@@ -19,7 +21,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #A5D7E8;
+        background-color: #ebffec;
       
   }
 

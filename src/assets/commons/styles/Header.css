@@ -1,62 +1,41 @@
-@keyframes scaleAnimation {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-  
-  @keyframes rotateAnimation {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  Header {
-    position: static;
-    background-color: #045201;
-    font-size: 30px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    animation: scaleAnimation 2s ease-in-out infinite alternate;
-  }
-  
-  Header p {
-    text-align: center;
-    justify-content: space-evenly;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    font-size: 16px;
-    margin: 10px 0;
-  }
-  
-  Header img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 10px;
-    animation: rotateAnimation 3s linear infinite;
-  }
-  
-  Header h1 {
-    color: #fff;
-    text-align: center;
-    font-size: 80px;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  
+
+
+Header {
+  font-family: 'Bebas Neue', sans-serif;
+font-family: 'Urbanist', sans-serif;
+  position: static;
+  background-color: #045201;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+Header p {
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+Header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+Header h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+Header .slogan {
+  color: #fff;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
   
 

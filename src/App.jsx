@@ -4,7 +4,6 @@ import Header from './assets/commons/header'
 import Footer from './assets/commons/Footer'
 import Navegador from './assets/commons/Navegador'
 import Home from './Pages/Home'
-import ProductList from './Pages/juegos'
 import Error from './Pages/Error'
 
 
@@ -23,7 +22,6 @@ export const App = ()=> {
         <Navegador/>
         <Routes>
           <Route path = "/" element = {<Home/>}/>
-          <Route path = "/Juegos" element = {<ProductList/>}/>
           <Route path = "/informaciongeneral" element = {<IngresosTotales/>}/>
           <Route path = "*" element = {<Error/>}/>
           <Route path = "/api" element = {<API/>}/>
