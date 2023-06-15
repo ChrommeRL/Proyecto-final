@@ -13,16 +13,12 @@ const Navegador = ()=>{
                     <h2>Inicio</h2>
                 </Link>
 
-                <Link to={"/juegos"}>
-                    <h2>Juegos</h2>
+                <Link to={"/api"}>
+                    <h2>api</h2>
                 </Link> 
 
                 <Link to={"/carrito"}>
                     <h2>Carrito</h2>
-                </Link>
-
-                <Link to={"https://youtu.be/dQw4w9WgXcQ"}>
-                    <h2>Contacto</h2>
                 </Link>
                
             </nav>

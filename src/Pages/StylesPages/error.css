@@ -1,9 +1,5 @@
 .ErrorPage h1{
     font-size: 120px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
-.ErrorPage.img {
-    width: 50%;
-    height: 50%;
-}

@@ -9,7 +9,7 @@ import Error from './Pages/Error'
 
 
 import { Routes, Route} from 'react-router-dom';
-import Carrito from "./Pages/Carrito";
+import API from "./Pages/Carrito";
 
 
 
@@ -24,7 +24,7 @@ export const App = ()=> {
           <Route path = "/" element = {<Home/>}/>
           <Route path = "/Juegos" element = {<ProductList/>}/>
           <Route path = "*" element = {<Error/>}/>
-          <Route path = "/carrito" element = {<Carrito/>}/>
+          <Route path = "/api" element = {<API/>}/>
           
        </Routes>
       

@@ -8,7 +8,7 @@ import './StylesPages/Error.css'
         <div className="ErrorPage">
         <center>
             <h1> Error 404 not found ¿No es esto lo que buscabas? </h1>
-            <img src="src/assets/commons/styles/Error 404.jpg" alt="foa chaval" />
+            <img src="https://cdn.mises.org/csprices.jpg" alt="error" />
             </center>
             </div>
         
