@@ -11,7 +11,8 @@ const Footer = () => {
         <footer> 
             <div className="Footer">
                 <p>
-                    Mega Games 2023 Todos los derechos reservados
+                    gracias por visitarnos, en el siguiente formulario puedes
+                     contactarnos y conseguir más información de nuestros productos
                 </p>
                 <ContactForm/>
             </div>

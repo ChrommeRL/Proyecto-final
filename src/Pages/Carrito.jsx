@@ -28,6 +28,7 @@ function API () {
           <div key={todo.id} className="product-item">
             <h2><img src={todo.image} alt={todo.title} /></h2>
             <h2>{todo.title}</h2>
+            <p>${todo.price}</p>
             <p>{todo.description}</p>
           </div>
           
